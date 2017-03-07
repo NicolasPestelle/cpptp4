@@ -1,0 +1,12 @@
+#include "FigureGeometrique.hpp"
+#include <iostream>
+#include <math.h>
+
+PolygoneRegulier(const Couleur & couleur, const Point & centre, int rayon, int nbCotes):FigureGeometrique(couleur)
+{
+  int angle = 2*M_PI/nbCotes;
+  
+}
+/* void afficher() const;
+  int getNbPoints() const;
+  const Point & getPoint(int indice) const;*/

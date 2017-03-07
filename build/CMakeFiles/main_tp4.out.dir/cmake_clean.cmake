@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main_tp4.out.dir/src/main.cpp.o"
   "CMakeFiles/main_tp4.out.dir/src/FigureGeometrique.cpp.o"
+  "CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.o"
+  "CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.o"
   "main_tp4.out.pdb"
   "main_tp4.out"
 )

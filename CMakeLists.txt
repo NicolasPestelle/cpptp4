@@ -7,6 +7,6 @@ find_package( PkgConfig REQUIRED )
 pkg_check_modules( PKG REQUIRED gtkmm-2.4 cpputest )
 include_directories( ${PKG_INCLUDE_DIRS} )
 
-add_executable( main_tp4.out src/main.cpp src/FigureGeometrique.cpp)
+add_executable( main_tp4.out src/main.cpp src/FigureGeometrique.cpp src/Ligne.cpp src/PolygoneRegulier.cpp)
 target_link_libraries( main_tp4.out ${PKG_LIBRARIES} )
 

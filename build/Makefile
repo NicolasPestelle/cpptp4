@@ -139,6 +139,54 @@ src/FigureGeometrique.cpp.s:
 	$(MAKE) -f CMakeFiles/main_tp4.out.dir/build.make CMakeFiles/main_tp4.out.dir/src/FigureGeometrique.cpp.s
 .PHONY : src/FigureGeometrique.cpp.s
 
+src/Ligne.o: src/Ligne.cpp.o
+.PHONY : src/Ligne.o
+
+# target to build an object file
+src/Ligne.cpp.o:
+	$(MAKE) -f CMakeFiles/main_tp4.out.dir/build.make CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.o
+.PHONY : src/Ligne.cpp.o
+
+src/Ligne.i: src/Ligne.cpp.i
+.PHONY : src/Ligne.i
+
+# target to preprocess a source file
+src/Ligne.cpp.i:
+	$(MAKE) -f CMakeFiles/main_tp4.out.dir/build.make CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.i
+.PHONY : src/Ligne.cpp.i
+
+src/Ligne.s: src/Ligne.cpp.s
+.PHONY : src/Ligne.s
+
+# target to generate assembly for a file
+src/Ligne.cpp.s:
+	$(MAKE) -f CMakeFiles/main_tp4.out.dir/build.make CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.s
+.PHONY : src/Ligne.cpp.s
+
+src/PolygoneRegulier.o: src/PolygoneRegulier.cpp.o
+.PHONY : src/PolygoneRegulier.o
+
+# target to build an object file
+src/PolygoneRegulier.cpp.o:
+	$(MAKE) -f CMakeFiles/main_tp4.out.dir/build.make CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.o
+.PHONY : src/PolygoneRegulier.cpp.o
+
+src/PolygoneRegulier.i: src/PolygoneRegulier.cpp.i
+.PHONY : src/PolygoneRegulier.i
+
+# target to preprocess a source file
+src/PolygoneRegulier.cpp.i:
+	$(MAKE) -f CMakeFiles/main_tp4.out.dir/build.make CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.i
+.PHONY : src/PolygoneRegulier.cpp.i
+
+src/PolygoneRegulier.s: src/PolygoneRegulier.cpp.s
+.PHONY : src/PolygoneRegulier.s
+
+# target to generate assembly for a file
+src/PolygoneRegulier.cpp.s:
+	$(MAKE) -f CMakeFiles/main_tp4.out.dir/build.make CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.s
+.PHONY : src/PolygoneRegulier.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -175,6 +223,12 @@ help:
 	@echo "... src/FigureGeometrique.o"
 	@echo "... src/FigureGeometrique.i"
 	@echo "... src/FigureGeometrique.s"
+	@echo "... src/Ligne.o"
+	@echo "... src/Ligne.i"
+	@echo "... src/Ligne.s"
+	@echo "... src/PolygoneRegulier.o"
+	@echo "... src/PolygoneRegulier.i"
+	@echo "... src/PolygoneRegulier.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

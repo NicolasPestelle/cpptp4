@@ -2,8 +2,8 @@
 #define POINT_HPP_
 
 struct Point{
-  int _y;
   int _x;
+  int _y;
 
 };
 

@@ -95,16 +95,66 @@ CMakeFiles/main_tp4.out.dir/src/FigureGeometrique.cpp.o.provides: CMakeFiles/mai
 
 CMakeFiles/main_tp4.out.dir/src/FigureGeometrique.cpp.o.provides.build: CMakeFiles/main_tp4.out.dir/src/FigureGeometrique.cpp.o
 
+CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.o: CMakeFiles/main_tp4.out.dir/flags.make
+CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.o: ../src/Ligne.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.o -c /etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/Ligne.cpp
+
+CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/Ligne.cpp > CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.i
+
+CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/Ligne.cpp -o CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.s
+
+CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.o.requires:
+.PHONY : CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.o.requires
+
+CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.o.provides: CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main_tp4.out.dir/build.make CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.o.provides.build
+.PHONY : CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.o.provides
+
+CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.o.provides.build: CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.o
+
+CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.o: CMakeFiles/main_tp4.out.dir/flags.make
+CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.o: ../src/PolygoneRegulier.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.o -c /etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/PolygoneRegulier.cpp
+
+CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/PolygoneRegulier.cpp > CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.i
+
+CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/PolygoneRegulier.cpp -o CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.s
+
+CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.o.requires:
+.PHONY : CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.o.requires
+
+CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.o.provides: CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main_tp4.out.dir/build.make CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.o.provides.build
+.PHONY : CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.o.provides
+
+CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.o.provides.build: CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.o
+
 # Object files for target main_tp4.out
 main_tp4_out_OBJECTS = \
 "CMakeFiles/main_tp4.out.dir/src/main.cpp.o" \
-"CMakeFiles/main_tp4.out.dir/src/FigureGeometrique.cpp.o"
+"CMakeFiles/main_tp4.out.dir/src/FigureGeometrique.cpp.o" \
+"CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.o" \
+"CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.o"
 
 # External object files for target main_tp4.out
 main_tp4_out_EXTERNAL_OBJECTS =
 
 main_tp4.out: CMakeFiles/main_tp4.out.dir/src/main.cpp.o
 main_tp4.out: CMakeFiles/main_tp4.out.dir/src/FigureGeometrique.cpp.o
+main_tp4.out: CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.o
+main_tp4.out: CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.o
 main_tp4.out: CMakeFiles/main_tp4.out.dir/build.make
 main_tp4.out: CMakeFiles/main_tp4.out.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable main_tp4.out"
@@ -116,6 +166,8 @@ CMakeFiles/main_tp4.out.dir/build: main_tp4.out
 
 CMakeFiles/main_tp4.out.dir/requires: CMakeFiles/main_tp4.out.dir/src/main.cpp.o.requires
 CMakeFiles/main_tp4.out.dir/requires: CMakeFiles/main_tp4.out.dir/src/FigureGeometrique.cpp.o.requires
+CMakeFiles/main_tp4.out.dir/requires: CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.o.requires
+CMakeFiles/main_tp4.out.dir/requires: CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.o.requires
 .PHONY : CMakeFiles/main_tp4.out.dir/requires
 
 CMakeFiles/main_tp4.out.dir/clean:

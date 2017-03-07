@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/FigureGeometrique.cpp" "/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/build/CMakeFiles/main_tp4.out.dir/src/FigureGeometrique.cpp.o"
+  "/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/Ligne.cpp" "/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/build/CMakeFiles/main_tp4.out.dir/src/Ligne.cpp.o"
+  "/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/PolygoneRegulier.cpp" "/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/build/CMakeFiles/main_tp4.out.dir/src/PolygoneRegulier.cpp.o"
   "/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/main.cpp" "/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/build/CMakeFiles/main_tp4.out.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
