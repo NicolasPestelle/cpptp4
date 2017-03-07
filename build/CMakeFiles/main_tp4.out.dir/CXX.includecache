@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/Couleur.hpp
+
+/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/FigureGeometrique.cpp
+FigureGeometrique.hpp
+/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/FigureGeometrique.hpp
+iostream
+-
+
+/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/FigureGeometrique.hpp
+iostream
+-
+Couleur.hpp
+/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/Couleur.hpp
+
