@@ -1,0 +1,42 @@
+#include "FigureGeometrique.hpp"
+#include <iostream>
+#include <math.h>
+#include "PolygoneRegulier.hpp"
+
+PolygoneRegulier::PolygoneRegulier(const Couleur & couleur, const Point & centre, int rayon, int nbCotes):FigureGeometrique(couleur)
+{
+  
+  //int angle = 2*M_PI/nbCotes;
+  /*int angleI = i2*M_PI;
+    FOR I...
+    ANGLE I 
+    XI = COS(I)*RAYON+CX
+    YI = SIN(I)*RAYON+CY
+   */
+  _points = new Point[nbCotes];
+  int anglei;
+  for(int i=0; i<nbCotes; i++){
+    anglei = i*2*M_PI / nbCotes;
+    _points[i]._x = rayon*cos(anglei)+centre._x;
+    _points[i]._y = rayon*sin(anglei)+centre._y;
+    
+  }
+  
+  _nbPoints = nbCotes;
+}
+/* void afficher() const;*/
+int PolygoneRegulier::getNbPoints() const{
+  return sizeof(_points);
+}
+const Point & PolygoneRegulier::getPoint(int indice) const{
+  return _points[indice];
+}
+
+void PolygoneRegulier:: afficher() const{
+
+  
+  std::cout << getCouleur()._r <<"_"<<getCouleur()._g<<"_"<<getCouleur()._b<<" " << std::endl;
+  for (int i =0; i < getNbPoints() ; i++){
+    std::cout << _points[i]._x<< "_" << _points[i]._y << " " << std::endl ;
+  }
+}

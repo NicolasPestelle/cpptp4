@@ -18,6 +18,7 @@ class PolygoneRegulier : public FigureGeometrique
   void afficher() const;
   int getNbPoints() const;
   const Point & getPoint(int indice) const;
+  ~PolygoneRegulier(); //destructeur
   
 };
 

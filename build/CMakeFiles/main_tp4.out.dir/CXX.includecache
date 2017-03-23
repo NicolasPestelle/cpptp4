@@ -14,25 +14,23 @@ iostream
 Couleur.hpp
 /etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/Couleur.hpp
 
-/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/Ligne.cpp
-Ligne.hpp
-/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/Ligne.hpp
+/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/Point.hpp
+
+/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/PolygoneRegulier.cpp
+FigureGeometrique.hpp
+/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/FigureGeometrique.hpp
 iostream
 -
+math.h
+-
+PolygoneRegulier.hpp
+/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/PolygoneRegulier.hpp
 
-/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/Ligne.hpp
+/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/PolygoneRegulier.hpp
 iostream
 -
 FigureGeometrique.hpp
 /etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/FigureGeometrique.hpp
 Point.hpp
 /etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/Point.hpp
-
-/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/Point.hpp
-
-/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/main.cpp
-iostream
--
-Ligne.hpp
-/etudiants/npestell/Documents/tp4/L3_CPP_etudiant/TP4/src/Ligne.hpp
 
